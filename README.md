@@ -23,7 +23,7 @@ To develop `AbstractModel`, you will need to:
 * REQUIRED METHODS
   * `public function save()`
   * `public function load($id)`
-  * `public function delete($id)`
+  * `public function delete($id=false)`
   * `public function getData($key=false)`
   * `public function setData($arr, $value=false)`
   
