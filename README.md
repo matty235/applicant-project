@@ -13,7 +13,7 @@ In this folder you will find
   * `contacts.sql` - Test data
   * `contact_test.php` - Unit tests
 
-There is a class in `Contact.php` that extends an abstract class called `AbstractModel`. You will need to build this abstract class.
+There is a class in `Contact.php` that extends a parent class called `AbstractModel`. You will need to build this abstract class.
 
 To develop `AbstractModel`, you will need to:
 * Import `contacts.sql` into a MySQL database
